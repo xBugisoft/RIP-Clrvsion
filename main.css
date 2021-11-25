@@ -1,5 +1,39 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@xBugisoft
+xBugisoft /
+RIP-Clrvsion
+Public
+
+1
+0
+
+    0
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+    Settings
+
+RIP-Clrvsion/main.css
+@xBugisoft
+xBugisoft Create main.css
+Latest commit d3d6356 6 minutes ago
+History
+1 contributor
+9587 lines (8939 sloc) 248 KB
 @charset "UTF-8";
-/*! ClearVision v6.1.3 by the CV team */
+/*! xBugisoft v6.1.3 by the CV team */
 /*! Powered by DiscordSelectors v0.2.7 */
 /* DEFAULT SETTINGS */
 :root {
@@ -26,7 +60,7 @@
   --members-width: 240px;
   --background-shading: 100%;
   --background-overlay: rgba(0, 0, 0, .6);
-  --background-image: url(https://clearvision.gitlab.io/images/sapphire.jpg);
+  --background-image: url(https://xBugisoft.gitlab.io/images/sapphire.jpg);
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
@@ -76,7 +110,7 @@
   --user-modal-grayscale: var(--background-grayscale);
   --user-modal-sepia: var(--background-sepia);
   --user-modal-blur: calc(var(--background-blur) + 3px);
-  --home-icon: url(https://clearvision.gitlab.io/icons/discord.svg);
+  --home-icon: url(https://xBugisoft.gitlab.io/icons/discord.svg);
   --home-position: center;
   --home-size: 40px;
 }
@@ -443,43 +477,43 @@ textarea,
   display: none;
 }
 .toolbar-1t6TWx [name=Nova_Bell].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/notifications.svg) center/24px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/notifications.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_BellOff].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/notifications_off.svg) center/24px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/notifications_off.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_Pin].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/pin.svg) center/24px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/pin.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_People].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/people.svg) center/24px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/people.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_At].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/mail.svg) center/24px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/mail.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_Help].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/help.svg) center/24px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/help.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_ChatNew].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/group_add.svg) center/24px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/group_add.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_CallJoin].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/call.svg) center/24px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/call.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_CallVideo].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/videocam.svg) center/24px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/videocam.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx [name=Nova_UserAdd].icon-22AiRD {
-  background: url(https://clearvision.gitlab.io/icons/person_add.svg) center/24px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/person_add.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx .icon-22AiRD.updateAvailable-qNqOs7 {
-  background: url(https://clearvision.gitlab.io/icons/sync.svg) center/24px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/sync.svg) center/24px no-repeat;
   -webkit-animation: cv-update-spin 2s linear infinite;
           animation: cv-update-spin 2s linear infinite;
 }
 .toolbar-1t6TWx [name=Nova_Downloading].icon-22AiRD {
   position: relative;
-  background: url(https://clearvision.gitlab.io/icons/cloud_download.svg) center/24px no-repeat, linear-gradient(to bottom, var(--main-color), var(--main-color)) 50% 10px/10px 10px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/cloud_download.svg) center/24px no-repeat, linear-gradient(to bottom, var(--main-color), var(--main-color)) 50% 10px/10px 10px no-repeat;
   -webkit-animation: cv-update-downloading 2.5s ease-in-out infinite;
           animation: cv-update-downloading 2.5s ease-in-out infinite;
 }
@@ -505,7 +539,7 @@ textarea,
   opacity: 1;
 }
 .toolbar-1t6TWx .linkIcon-PzfbqY {
-  background: url(https://clearvision.gitlab.io/icons/share.svg) center/24px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/share.svg) center/24px no-repeat;
 }
 .toolbar-1t6TWx .linkIcon-PzfbqY > g {
   display: none;
@@ -1041,7 +1075,7 @@ textarea,
 }
 
 [name=Gear].actionIcon-PgcMM2 {
-  background: url(https://clearvision.gitlab.io/icons/settings.svg) no-repeat center/18px;
+  background: url(https://xBugisoft.gitlab.io/icons/settings.svg) no-repeat center/18px;
 }
 [name=Gear].actionIcon-PgcMM2:hover {
   -webkit-animation: cv-spin 2.5s linear infinite;
@@ -1051,7 +1085,7 @@ textarea,
   display: none;
 }
 [name=Invite].actionIcon-PgcMM2 {
-  background: url(https://clearvision.gitlab.io/icons/person_add.svg) no-repeat center/18px;
+  background: url(https://xBugisoft.gitlab.io/icons/person_add.svg) no-repeat center/18px;
 }
 [name=Invite].actionIcon-PgcMM2 > path {
   display: none;
@@ -1230,7 +1264,7 @@ textarea,
   transition: all 0.5s ease-in-out;
 }
 .container-3baos1:before {
-  content: "ClearVision";
+  content: "xBugisoft";
   right: 50%;
   text-align: right;
   transform: translateX(50%);
@@ -1449,7 +1483,7 @@ textarea,
 }
 .privateChannels-1nO12o .channel-2QD9_O .closeButton-2GCmT5 {
   display: block;
-  background: url(https://clearvision.gitlab.io/icons/close.svg) center/18px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/close.svg) center/18px no-repeat;
   opacity: 0;
   transition: all 0.15s ease-in-out;
 }
@@ -2372,7 +2406,7 @@ textarea,
   content: "";
   width: 36px;
   height: 36px;
-  background: url(https://clearvision.gitlab.io/icons/file_music.svg) center/100% no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/file_music.svg) center/100% no-repeat;
   opacity: 0.5;
 }
 .audioMetadata-3zOuGv .metadataSize-2UOOLK {
@@ -3237,38 +3271,38 @@ code {
   height: 30px;
   box-sizing: border-box;
   padding-left: 30px;
-  background-image: url(https://clearvision.gitlab.io/icons/file.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/file.svg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
   opacity: 0.5;
 }
 :not(.embedWrapper-3AbfJJ) > [title=unknown].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_upload.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/file_upload.svg);
 }
 [title=document].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_document.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/file_document.svg);
 }
 [title=archive].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_archive.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/file_archive.svg);
 }
 [title=code].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_code.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/file_code.svg);
 }
 [title=webcode].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_webcode.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/file_webcode.svg);
 }
 [title=ai].icon-1kp3fr, [title=ps].icon-1kp3fr, [title=photoshop].icon-1kp3fr, [title=sketch].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_image.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/file_image.svg);
 }
 [title=ae].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_video.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/file_video.svg);
 }
 [title=spreadsheet].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_table.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/file_table.svg);
 }
 [title=acrobat].icon-1kp3fr {
-  background-image: url(https://clearvision.gitlab.io/icons/file_pdf.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/file_pdf.svg);
 }
 
 .fileNameLink-9GuxCo {
@@ -6340,31 +6374,31 @@ textarea::-webkit-scrollbar {
 
 /*  OLD CATEGORIES
 %emojiPickerCategoriesItemPeople {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiSmileys.svg);
+	background-image: url(https://xBugisoft.gitlab.io/icons/discord/emojiSmileys.svg);
 }
 %emojiPickerCategoriesItemNature {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiNature.svg);
+	background-image: url(https://xBugisoft.gitlab.io/icons/discord/emojiNature.svg);
 }
 %emojiPickerCategoriesItemFood {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiFood.svg);
+	background-image: url(https://xBugisoft.gitlab.io/icons/discord/emojiFood.svg);
 }
 %emojiPickerCategoriesItemActivity {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiActivity.svg);
+	background-image: url(https://xBugisoft.gitlab.io/icons/discord/emojiActivity.svg);
 }
 %emojiPickerCategoriesItemTravel {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiTravel.svg);
+	background-image: url(https://xBugisoft.gitlab.io/icons/discord/emojiTravel.svg);
 }
 %emojiPickerCategoriesItemObjects {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiObject.svg);
+	background-image: url(https://xBugisoft.gitlab.io/icons/discord/emojiObject.svg);
 }
 %emojiPickerCategoriesItemSymbols {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiSymbol.svg);
+	background-image: url(https://xBugisoft.gitlab.io/icons/discord/emojiSymbol.svg);
 }
 %emojiPickerCategoriesItemFlags {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiFlags.svg);
+	background-image: url(https://xBugisoft.gitlab.io/icons/discord/emojiFlags.svg);
 }   
 %emojiPickerCategoriesItemCustom {
-	background-image: url(https://clearvision.gitlab.io/icons/discord/emojiCustom.svg);
+	background-image: url(https://xBugisoft.gitlab.io/icons/discord/emojiCustom.svg);
 }
 */
 /* GROUP INVITE POPOUT */
@@ -6797,7 +6831,7 @@ textarea::-webkit-scrollbar {
 .additionalActionsIcon-365LnQ {
   width: 24px;
   height: 24px;
-  background: url(https://clearvision.gitlab.io/icons/expand_more.svg) center/36px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/expand_more.svg) center/36px no-repeat;
   opacity: 0.3;
   transition: all 0.15s ease-in-out;
 }
@@ -6829,52 +6863,52 @@ textarea::-webkit-scrollbar {
 }
 
 .profileBadgeStaff-13GO7z {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeStaff.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeStaff.svg);
 }
 .profileBadgePartner-SjK6L2 {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgePartner.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgePartner.svg);
 }
 .profileBadgeHypesquad-1YIe7Z {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquad.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeHypeSquad.svg);
 }
 .profileBadgeHypeSquadOnlineHouse1-xN6tES {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquadBravery.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeHypeSquadBravery.svg);
 }
 .profileBadgeHypeSquadOnlineHouse2-3jBpXR {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquadBrilliance.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeHypeSquadBrilliance.svg);
 }
 .profileBadgeHypeSquadOnlineHouse3-1YbjMX {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquadBalance.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeHypeSquadBalance.svg);
 }
 .profileBadgeHypeSquadOnlineHouse1Winner-3OGyO6 {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquadBraveryWinner.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeHypeSquadBraveryWinner.svg);
 }
 .profileBadgeHypeSquadOnlineHouse2Winner-3GW5Sm {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquadBrillianceWinner.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeHypeSquadBrillianceWinner.svg);
 }
 .profileBadgeHypeSquadOnlineHouse3Winner-2iVu11 {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeHypeSquadBalanceWinner.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeHypeSquadBalanceWinner.svg);
 }
 .profileBadgeEarlySupporter-PQB_0a {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeEarlySupporter.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeEarlySupporter.svg);
 }
 .profileBadgePremium-3kZ9Qj {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeNitro.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeNitro.svg);
 }
 .profileBadgeBugHunter-IV0vLE {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeBugHunter.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeBugHunter.svg);
 }
 .profileGuildSubscriberlvl1-pKd1EZ {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeGuildSubscriber1.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeGuildSubscriber1.svg);
 }
 .profileGuildSubscriberlvl2-1aIFve {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeGuildSubscriber2.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeGuildSubscriber2.svg);
 }
 .profileGuildSubscriberlvl3-33AROf {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeGuildSubscriber3.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeGuildSubscriber3.svg);
 }
 .profileGuildSubscriberlvl4-2yY8EG {
-  background-image: url(https://clearvision.gitlab.io/icons/discord/badgeGuildSubscriber4.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/discord/badgeGuildSubscriber4.svg);
 }
 
 .root-3QyAh1 .tabBarContainer-37hZsr {
@@ -6984,7 +7018,7 @@ textarea::-webkit-scrollbar {
 }
 
 .connectedAccountVerifiedIcon-2cA82O {
-  background: url(https://clearvision.gitlab.io/icons/verified.svg) center/18px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/verified.svg) center/18px no-repeat;
   opacity: 0.5;
   z-index: 1;
 }
@@ -6996,7 +7030,7 @@ textarea::-webkit-scrollbar {
 }
 
 .connectedAccountOpenIcon-E5wGF4 {
-  background: url(https://clearvision.gitlab.io/icons/popout.svg) center/18px no-repeat;
+  background: url(https://xBugisoft.gitlab.io/icons/popout.svg) center/18px no-repeat;
   opacity: 0.3;
   transition: all 0.15s ease-in-out;
 }
@@ -7642,73 +7676,73 @@ textarea::-webkit-scrollbar {
   transition: all 0.15s ease-in-out;
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=my-account-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/person.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/person.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="privacy-&-safety-tab"].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/security.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/security.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=authorized-apps-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/apps.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/apps.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=connections-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/link.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/link.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=discord-nitro-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/nitro.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/nitro.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=nitro-server-boost-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/server_boost.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/server_boost.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=library-inventory-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/gift.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/gift.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=billing-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/payment.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/payment.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=appearance-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/camera.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/camera.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="voice-&-video-tab"].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/mic.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/mic.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="text-&-images-tab"].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/chat.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/chat.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=notifications-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/notifications.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/notifications.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=keybinds-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/keyboard.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/keyboard.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=language-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/language.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/language.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=windows-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/windows.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/windows.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=linux-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/linux.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/linux.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=streamer-mode-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/videocam.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/videocam.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=advanced-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/bug.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/bug.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=game-activity-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/games.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/games.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=overlay-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/aspect_ratio.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/aspect_ratio.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=changelog-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/history.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/history.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=hypesquad-online-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/hypesquad.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/hypesquad.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=logout-tab].item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/exit.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/exit.svg);
 }
 
 .premiumLabel-fDtYys > svg {
@@ -8640,16 +8674,16 @@ textarea::-webkit-scrollbar {
 
 /* BD SETTINGS SIDEBAR ICONS */
 .sidebar-CFHs9e .bd-settings-tab.item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/betterdiscord.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/betterdiscord.svg);
 }
 .sidebar-CFHs9e .bd-customcss-tab.item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/code_braces.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/code_braces.svg);
 }
 .sidebar-CFHs9e .bd-plugins-tab.item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/puzzle.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/puzzle.svg);
 }
 .sidebar-CFHs9e .bd-themes-tab.item-PXvHYJ:before {
-  background-image: url(https://clearvision.gitlab.io/icons/palette.svg);
+  background-image: url(https://xBugisoft.gitlab.io/icons/palette.svg);
 }
 
 #bda-qem {
@@ -9585,3 +9619,19 @@ textarea::-webkit-scrollbar {
 .css-3vaxre-menu {
   background-color: var(--backdrop-overlay);
 }
+
+    © 2021 GitHub, Inc.
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+Loading complete
